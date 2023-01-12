@@ -1,3 +1,4 @@
+(module config.plugin.telescope
   {autoload {nvim aniseed.nvim
              telescope telescope
              actions telescope.actions
