@@ -165,6 +165,7 @@
   ;; ----------------------
   ;; Markdown
   :ixru/nvim-markdown {}
+  :iamcco/markdown-preview.nvim {}
 
   :simrat39/symbols-outline.nvim {:mod :symbols-outline}
 
@@ -177,7 +178,7 @@
   :Olical/conjure {:mod :conjure}
 
   ;; sexp and vim-style editing
-  ;; :guns/vim-sexp {:mod :sexp}
+  :guns/vim-sexp {:mod :sexp}
   :windwp/nvim-autopairs {:mod :autopairs}
 
   :tpope/vim-abolish {}

@@ -256,15 +256,15 @@
 
 ;; Enable line wrapping in the HUD and log.
 ;; Default: `false`
-;; (set nvim.g.conjure#log#wrap false)
+(set nvim.g.conjure#log#wrap true)
 
 ;; Enable or disable folding of results.
 ;; Default: `false`
-;; (set nvim.g.conjure#log#fold#enabled false)
+(set nvim.g.conjure#log#fold#enabled true)
 
 ;; Fold results greater than fold line number
 ;; Default: `10`
-;; (set nvim.g.conjure#log#fold#lines 10)
+(set nvim.g.conjure#log#fold#lines 100)
 
 ;; Marker representing start of a log fold
 ;; Default: `"~~~%{"`
@@ -281,7 +281,7 @@
 ;; Scroll log window to set cursor location after jumping to latest entry
 ;; `top`, `center`, `bottom` and `none` (no scroll)
 ;; Default: `"top"`
-;; (set nvim.g.conjure#log#jump_to_latest#cursor_scroll_position "top")
+(set nvim.g.conjure#log#jump_to_latest#cursor_scroll_position "center")
 
 ;; Number of lines to check for `ns` form, used for setting evaluation context
 ;; `b:conjure#context` to override a specific buffer that isn't finding the context

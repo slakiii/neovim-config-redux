@@ -174,7 +174,7 @@
        ;; :swapfile false
        ;; :showmode false
        ;; show line numbers
-       ;; :number true
+       :number true
        :relativenumber true
        ;show line and column number
        :ruler true
