@@ -179,7 +179,7 @@
 
   ;; sexp and vim-style editing
   :guns/vim-sexp {:mod :sexp}
-  :windwp/nvim-autopairs {:mod :autopairs}
+  ;; :windwp/nvim-autopairs {:mod :autopairs}
 
   :tpope/vim-abolish {}
   ;; :tpope/vim-commentary {}
