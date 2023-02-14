@@ -168,6 +168,7 @@
   :iamcco/markdown-preview.nvim {}
 
   :simrat39/symbols-outline.nvim {:mod :symbols-outline}
+  :simrat39/rust-tools {}
 
   ;; ---------------------
   ;; LISP related features
