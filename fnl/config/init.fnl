@@ -199,17 +199,22 @@
        ;; :shiftwidth 2
        ;; :softtabstop 2
        ;persistent undo
-       ;; :undofile true
+       ;; :undodir "~/.vim/undodir"
+       :undofile true
        ;open new horizontal panes on down pane
        :splitbelow true
        ;open new vertical panes on right pane
        :splitright true
        ;enable highlighting search
        :hlsearch true
+       :incsearch true
+       ;; distance of selected row from bottom or top
+       :scrolloff 8
        ;; single column for signs(icons) and line numbers
        :signcolumn "number"
        ;; Width of gutter (number + sign columns)
        ;; :numberwidth 3  ;; relative numbers should only need 2 columns
+       ;; :colorcolumn "100"
 
        ;; syntax highlight code blocks in markdown
        ;; :markdown_fenced_languages ["clojure" "html" "json" "css" "scss" "lua" "vim" "yaml"]
