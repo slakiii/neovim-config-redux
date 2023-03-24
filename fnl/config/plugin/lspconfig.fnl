@@ -71,7 +71,7 @@
                      :handlers handlers
                      :capabilities capabilities})
 
-;; JavaScript and TypeScript
+  ;; JavaScript and TypeScript
   (lsp.tsserver.setup {:on_attach on_attach
                        :handlers handlers
                        :capabilities capabilities})
@@ -92,11 +92,18 @@
                      :handlers handlers
                      :capabilities capabilities
                      :cmd ["vscode-json-languageserver" "--stdio"]})
-  
+
   (lsp.rust_analyzer.setup {:on_attach on_attach
                             :handlers handlers
-                            :capabilities capabilities}))
-
+                            :capabilities capabilities})
+ 
+  (lsp.terraformls.setup {:on_attach on_attach
+                          :handlers handlers
+                          :capabilities capabilities}) 
+ 
+  (lsp.kotlin_language_server.setup {:on_attach on_attach
+                                     :handlers handlers
+                                     :capabilities capabilities}))
 
 ;; (vim.lsp.protocol.CompletionItemKind
 ;;  {"   (Text) ",
