@@ -222,8 +222,8 @@
   (each [option value (pairs options)]
     (util.set-global-option option value)))
 
-(if vim.g.neovide
-  (util.set-global-option :guifont "DroiSansMono NF"))
+;;(if vim.g.neovide
+;;  (util.set-global-option :guifont "DroidSansMono NF"))
 
 ;import plugin.fnl
 (require :config.plugin)
