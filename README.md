@@ -92,7 +92,6 @@ All the plugins declared in `fnl/config/plugin.fnl` should be installed
  - [akinsho/nvim-toggleterm.lua](https://github.com/akinsho/toggleterm.nvim) - toggle terminal popup window
 
 ### themes
-- [sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material) a softer contrast version of Gruvbox theme `:help gruvbox-material.txt`
 - [feline-nvim/feline.nvim](https://github.com/feline-nvim/feline.nvim) - status bar theme
 
 Supporting plugins
@@ -313,7 +312,7 @@ The light theme is used by default, with a softer background colour that is slig
 Options are specified in the `theme.setup` function, where the option names are keywords and the values are strings, boolean or hash-map of more option keywords and values.
 
 ```
-(theme.setup {:theme_style "light"
+(theme.setup {;;:theme_style "light"
               :colors {:bg "#f8f2e6"}
               :comment_style "italic"})
 ```

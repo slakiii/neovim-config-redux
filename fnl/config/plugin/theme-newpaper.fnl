@@ -4,7 +4,9 @@
 ;; https://github.com/yorik1984/newpaper.nvim
 
 (theme.setup
-  {:style :light
+  {:style :dark
    :italic_comments true
-   :borders false})
+   :borders false
+   :terminal "contrast"
+   :sidebars_contrast ["NvimTree"]})
 

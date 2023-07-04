@@ -62,11 +62,6 @@
   ;; Newspaper - subtle light and dark themes
   :yorik1984/newpaper.nvim {:mod :theme-newpaper}
 
-  ;; Gruvbox theme with treesitter support
-  :luisiacc/gruvbox-baby {}
-
-  :sainnhe/gruvbox-material {}
-
   ;; GitHub themes - dark and light variations configured in plugins/theme.fnl
   :projekt0n/github-nvim-theme {:mod :theme}
 
@@ -82,15 +77,6 @@
 
   ;;dark & light theme with wide plugin support
   :folke/tokyonight.nvim {}
-
-  ;; gruvbox theme - to set up plugin/theme.fnl before this works
-  ;; :morhetz/gruvbox {:mod :theme-gruvbox}
-  ;; Gruvbox contrast options to try: :soft :medium :hard
-  ;; {:background :light :gruvbox-contrast-light :soft}
-  ;; :morhetz/gruvbox {:mod :theme}
-
-  ;; Light theme - may require plugin/theme.fnl or smilar to work
-  ;; :ingram1107/vim-zhi {}
 
  :overcache/NeoSolarized {}
 
@@ -267,4 +253,6 @@
                             :mod :toggleterm}
   :theprimeagen/harpoon {:requires [:nvim-lua/plenary.nvim]}
   :mbbill/undotree {}
+
+  :nathom/filetype.nvim {}
 )

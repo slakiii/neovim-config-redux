@@ -4,7 +4,9 @@
 ;; https://github.com/folke/tokyonight.nvim
 
 (tokyo.setup
- {:tokyonight_style "storm"})
+ {:tokyonight_style "storm"
+  :tokyonight_sidebars {}
+  :tokyonight_dark_float true})
 
 
   ;; theme styles: "storm", "night", "day"
