@@ -264,7 +264,7 @@
 
 ;; Fold results greater than fold line number
 ;; Default: `10`
-(set nvim.g.conjure#log#fold#lines 250)
+(set nvim.g.conjure#log#fold#lines 500)
 
 ;; Marker representing start of a log fold
 ;; Default: `"~~~%{"`
