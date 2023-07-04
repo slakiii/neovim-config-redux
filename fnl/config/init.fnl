@@ -53,9 +53,10 @@
 
 ;; Projects and files
 ;; Find files in a project
-(util.lnnoremap :f/ "Telescope live_grep")
+(util.lnnoremap :f/ "Telescope grep_string")
 (util.lnnoremap :fb "Telescope file_browser")
 (util.lnnoremap :ff "Telescope find_files")   ;; Added for Convienience
+(util.lnnoremap :fg "Telescope live_grep")
 (util.lnnoremap :fp "Telescope find_files")
 (util.lnnoremap :fs "write")
 ;; (util.lnnoremap :fc "saveas")  ;; requires an argument before carrage return
